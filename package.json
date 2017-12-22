@@ -1,5 +1,5 @@
 {
-  "name": "react-clippy",
+  "name": "@stagecraft/react-clippy",
   "version": "1.0.0",
   "description": "Simple copy to clipboard component",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
     "lib"
   ],
   "scripts": {
-		"prepublish": "run-s 'clean' 'build'",
+		"prepublishOnly": "run-s 'clean' 'build'",
 		"clean": "rimraf es lib",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "run-s 'build:es' 'build:commonjs'",
