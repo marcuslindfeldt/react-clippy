@@ -34,3 +34,13 @@ const App = () => (
 
 export default App;
 ```
+
+
+# API
+`<Clippy>`
+
+| Prop        | Type | Description                                        |
+| ----------- |:----:| :--------------------------------------------------|
+| onCopy      | func | callback that fires when text has been copied      |
+| noSelection | bool | Disable selection of the copied text               |
+| children    | func | The render prop that should return a React element |
