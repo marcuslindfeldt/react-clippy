@@ -1,4 +1,6 @@
 # react-clippy
+[![npm](https://img.shields.io/npm/v/react-web-tabs.svg?style=flat-square)](https://www.npmjs.com/package/@stagecraft/react-clippy)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/stagecraft/react-clippy/master/LICENCE)
 
 A Simple Copy to Clipboard React component.
 
@@ -7,11 +9,11 @@ A Simple Copy to Clipboard React component.
 
 Using [npm](https://www.npmjs.com/):
 ```bash
-npm install --save react-web-tabs
+npm install --save @stagecraft/react-clippy
 ```
 Using [yarn](https://yarnpkg.com/en/):
 ```bash
-yarn add react-web-tabs
+yarn add @stagecraft/react-clippy
 ```
 
 ## Usage
