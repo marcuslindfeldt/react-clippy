@@ -1,6 +1,6 @@
 {
   "name": "@stagecraft/react-clippy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple copy to clipboard component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -9,14 +9,14 @@
     "lib"
   ],
   "scripts": {
-		"prepublishOnly": "run-s 'clean' 'build'",
-		"clean": "rimraf es lib",
+    "prepublishOnly": "run-s 'clean' 'build'",
+    "clean": "rimraf es lib",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "run-s 'build:es' 'build:commonjs'",
     "build:es": "babel src -d es",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d lib"
   },
-	"author": "Marcus Lindfeldt",
+  "author": "Marcus Lindfeldt",
   "homepage": "https://github.com/stagecraft/react-clippy",
   "bugs": {
     "url": "https://github.com/stagecraft/react-clippy/issues"
@@ -28,7 +28,7 @@
   "keywords": [
     "react",
     "clipboard",
-		"copy"
+    "copy"
   ],
   "license": "MIT",
   "devDependencies": {
