@@ -1,5 +1,5 @@
 # react-clippy
-[![npm](https://img.shields.io/npm/v/react-web-tabs.svg?style=flat-square)](https://www.npmjs.com/package/@stagecraft/react-clippy)
+[![npm](https://img.shields.io/npm/v/@stagecraft/react-clippy.svg?style=flat-square)](https://www.npmjs.com/package/@stagecraft/react-clippy)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/stagecraft/react-clippy/master/LICENCE)
 
 A Simple Copy to Clipboard React component.
